@@ -1,0 +1,12 @@
+#Rules of the scissors game:
+rock(R) - fist
+paper(p) - flat hands
+scissors(s) - pointer and middle fingers
+
+Rock(fist) beat scissors(pointers)
+scissors(pointers) beat paper(flat hands)
+paper(flat hands) beats rock(fist)
+
+
+same item is a tie
+he who wiins most rounf out of three wins the game
