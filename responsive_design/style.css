@@ -1,13 +1,114 @@
-:root {
-  --background-color: hsl(0, 100%, 74%);
-  --color: rgb(242, 241, 246);
-  --font-size: 16px;
-  --font-family: sans-serif;
+ {
+  font-family: Poppins;
+  src: url(https://fonts.google.com/specimen/Poppins);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  background-color: var(--background-color);
-  color: var(--color);
-  font-family: var(--font-family);
-  font-size: var(--font-size);
+  font-size: 16px;
+  font-family: Poppins;
+  background-color: hsl(0, 100%, 74%);
+  color: #fff;
+}
+body,
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  /* width: 80%; */
+  background-image: url("./images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main div {
+  margin: 5px;
+  font-size: 0.879em;
+  width: 100%;
+}
+
+.learn-code {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+.fill-form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+form p {
+  font-size: 0.34em;
+  color: hsl(246, 25%, 77%);
+}
+
+input {
+  padding: 5px;
+  margin: 4px;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+#name {
+  border: 1px solid black;
+}
+
+button {
+  font-size: 0.835em;
+  padding: 5px 48px;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-size: 0.34em;
+  cursor: pointer;
+}
+
+.try {
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 5px;
+}
+
+.spantag {
+  color: hsl(246, 25%, 77%);
+}
+
+.claim {
+  background-color: hsl(154, 59%, 51%);
+  margin: auto;
+}
+
+.span-p {
+  color: hsl(0, 100%, 74%);
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    display: block;
+    background-image: url("./images/bg-intro-mobile.png");
+  }
 }
